@@ -1,3 +1,4 @@
+all : libUnpSunyj.a
 libUnpSunyj.a : writen.o error.o str_echo.o readline.o str_cli.o wrapstdio.o signal.o
 	ar cr libUnpSunyj.a writen.o error.o str_echo.o readline.o str_cli.o wrapstdio.o signal.o
 error.o : error.cc unpsunyj.h
